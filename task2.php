@@ -1,10 +1,10 @@
 <?php
-$allDrawings = 80;
-$markerDrawings = 23;
-$pensilDrawings = 40;
-echo "Дана задача: На школьной выставке $allDrawings рисунков. $markerDrawings из них выполнены<br>
-фломастерами, $pensilDrawings карандашами, а остальные — красками. Сколько рисунков,<br>
-выполненные красками, на школьной выставке?<br>";
-$paintsDrawings = $allDrawings - $markerDrawings - $pensilDrawings;
-echo 'Красками выполнено рисунков:' . $allDrawings . '-' . $markerDrawings .
-    '-' . $pensilDrawings . '=' . $paintsDrawings . '.<br>';
+const ALL_DRAWINGS = 80;
+const MARKER_DRAWINGS = 23;
+const PENCIL_DRAWINGS = 40;
+echo 'Дана задача: На школьной выставке' . ALL_DRAWINGS . ' рисунков.' . MARKER_DRAWINGS . ' из них выполнены<br>'
+. ' фломастерами, ' . PENCIL_DRAWINGS . ' карандашами, а остальные — красками. Сколько рисунков,<br>
+выполненные красками, на школьной выставке?<br>';
+$paintsDrawings = ALL_DRAWINGS - MARKER_DRAWINGS - PENCIL_DRAWINGS;
+echo 'Красками выполнено рисунков:  ' . ALL_DRAWINGS . '-' . MARKER_DRAWINGS .
+    '-' . PENCIL_DRAWINGS . '=' . $paintsDrawings . '.<br>';

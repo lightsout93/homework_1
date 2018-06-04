@@ -1,5 +1,6 @@
 <?php
 $day = rand(0, 8);
+echo $day . '<br>';
 switch ($day) {
     case 1:
     case 2:
